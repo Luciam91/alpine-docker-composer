@@ -8,7 +8,7 @@ Composer provides dependency management in PHP, this Dockerfile has been inspire
 
 `docker pull luciam91/composer`
 
-2. Run any command available in the Composer (Documentation)[https://getcomposer.org/doc/] with the following:
+2. Run any command available in the Composer [Documentation](https://getcomposer.org/doc/) with the following:
 
 `docker run -it --rm -v $(pwd):/app -u $UID luciam91/composer init`
 
