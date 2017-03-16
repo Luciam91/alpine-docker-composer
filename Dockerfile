@@ -11,7 +11,7 @@ RUN echo "memory_limit=-1" > $PHP_INI_DIR/conf.d/memory-limit.ini
 # Register the COMPOSER_HOME environment variable
 ENV COMPOSER_HOME /composer
 
-ENV COMPOSER_VERSION 1.1.3
+ENV COMPOSER_VERSION 1.4.1
 
 # Add global binary directory to PATH and make sure to re-export it
 ENV PATH /composer/vendor/bin:$PATH
